@@ -1,0 +1,517 @@
+{
+  "year": 2018,
+  "cloze": {
+    "passage": "Why do people read negative Internet comments and do other things that will obviously be painful? Because humans have an inherent need to {{1}} uncertainty, according to a recent study in Psychological Science. The new research reveals that the need to know is so strong that people will {{2}} to satisfy their curiosity even when it is clear the answer will {{3}} .\n\nIn a series of four experiments, behavioral scientists at the University Of Chicago and the Wisconsin School of Business tested students’ willingness to {{4}} themselves to unpleasant stimuli in an effort to satisfy curiosity. For one {{5}} , each participant was shown a pile of pens that the researcher claimed were from a previous experiment. The twist? Half of the pens would {{6}} an electric shock when clicked.\n\nTwenty-seven students were told which pens were electrified; another twenty-seven were told only that some were electrified. {{7}} left alone in the room, the students who did not know which ones would shock them clicked more pens and incurred more shocks than the students who knew what would {{8}} .\n\nSubsequent experiments reproduced this effect with other stimuli, {{9}} the sound of fingernails on a chalkboard and photographs of disgusting insects. The drive to {{10}} is deeply rooted in humans, much the same as the basic drives for {{11}} or shelter, says Christopher Hsee of the University of Chicago.\n\nCuriosity is often considered a good instinct—it can {{12}} new scientific advances, for instance—but sometimes such {{13}} can backfire. The insight that curiosity can drive you to do {{14}} things is a profound one.\n\nUnhealthy curiosity is possible to {{15}} , however. In a final experiment, participants who were encouraged to {{16}} how they would feel after viewing an unpleasant picture were less likely to {{17}} to see such an image. These results suggest that imagining the {{18}} of following through on one’s curiosity ahead of time can help determine {{19}} it is worth the endeavor. “Thinking about long- term {{20}} is key to reducing the possible negative effects of curiosity,” Hsee says. In other words, don’t read online comments.",
+    "questions": [
+      {
+        "no": 1,
+        "options": {
+          "A": "protect",
+          "B": "resolve",
+          "C": "discuss",
+          "D": "ignore"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 2,
+        "options": {
+          "A": "refuse",
+          "B": "wait",
+          "C": "regret",
+          "D": "seek"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 3,
+        "options": {
+          "A": "hurt",
+          "B": "last",
+          "C": "mislead",
+          "D": "rise"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 4,
+        "options": {
+          "A": "alert",
+          "B": "tie",
+          "C": "treat",
+          "D": "expose"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 5,
+        "options": {
+          "A": "message",
+          "B": "review",
+          "C": "trial",
+          "D": "concept"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 6,
+        "options": {
+          "A": "remove",
+          "B": "weaken",
+          "C": "interrupt",
+          "D": "deliver"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 7,
+        "options": {
+          "A": "When",
+          "B": "If",
+          "C": "Though",
+          "D": "Unless"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 8,
+        "options": {
+          "A": "continue",
+          "B": "happen",
+          "C": "disappear",
+          "D": "change"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 9,
+        "options": {
+          "A": "rather than",
+          "B": "regardless of",
+          "C": "such as",
+          "D": "owing to"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 10,
+        "options": {
+          "A": "discover",
+          "B": "forgive",
+          "C": "forget",
+          "D": "disagree"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 11,
+        "options": {
+          "A": "pay",
+          "B": "marriage",
+          "C": "schooling",
+          "D": "food"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 12,
+        "options": {
+          "A": "lead to",
+          "B": "rest on",
+          "C": "learn from",
+          "D": "begin with"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 13,
+        "options": {
+          "A": "withdrawal",
+          "B": "persistence",
+          "C": "inquiry",
+          "D": "diligence"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 14,
+        "options": {
+          "A": "self-reliant",
+          "B": "self-destructive",
+          "C": "self-evident",
+          "D": "self-deceptive"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 15,
+        "options": {
+          "A": "define",
+          "B": "resist",
+          "C": "replace",
+          "D": "trace"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 16,
+        "options": {
+          "A": "overlook",
+          "B": "predict",
+          "C": "design",
+          "D": "conceal"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 17,
+        "options": {
+          "A": "remember",
+          "B": "promise",
+          "C": "choose",
+          "D": "pretend"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 18,
+        "options": {
+          "A": "relief",
+          "B": "plan",
+          "C": "duty",
+          "D": "outcome"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 19,
+        "options": {
+          "A": "why",
+          "B": "whether",
+          "C": "where",
+          "D": "how"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 20,
+        "options": {
+          "A": "hurt",
+          "B": "last",
+          "C": "mislead",
+          "D": "rise 这些选项不能只按中文意思选。更稳的做法是先确定空格在句中的语法角色，再看它和前后关键词之间是否形成自然搭配，最后用全文主题检查语义是否跑偏。 ### 易错点总结 - 只看空格所在半句，忽略上一句铺垫或下一句解释，容易把“局部通顺”的选项误当答案。 - 把近义词当成可互换词，忽略语体、搭配对象和逻辑方向，是完形高频失分原因。 - 遇到转折、让步、因果、递进时，要先判断作者态度和事件走向；逻辑方向判断错，后面的词义判断通常也会错。 - 名词空重点看可数性、抽象/具体属性和前置修饰；动词空重点看主语、宾语和时态语态；形容词/副词空重点看评价色彩和程度。 - 复盘时不要只记答案字母，应把正确选项放回原句朗读一遍，确认句法、语义和篇章三层都成立。 <!-- echo-enrichment:end -->"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  "readings": [
+    {
+      "textNo": 1,
+      "paragraphs": [
+        "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future. Mr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical. When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+        "As Koziatek knows, there is learning in just about everything. Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum. They can also learn geometry by assembling a bicycle.",
+        "But he’s also found a kind of insidious prejudice. Working with your hands is seen as almost a mark of inferiority. Schools in the family of vocational education “have that stereotype... that it’s for kids who can’t make it academically,” he says.",
+        "On one hand, that viewpoint is a logical product of America’s evolution. Manufacturing is not the economic engine that it once was. The job security that the US economy once offered to high school graduates has largely evaporated.",
+        "More education is the new principle. We want more for our kids, and rightfully so.",
+        "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs. Yes, a bachelor’s degree opens more doors. But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing. But only 44 percent of workers are adequately trained.",
+        "In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face. There is a gap in working-class jobs, but the workers who need those jobs most aren’t equipped to do them. Koziatek’s Manchester School of Technology High School is trying to fill that gap.",
+        "Koziatek’s school is a wake-up call. When education becomes one-size-fits- all, it risks overlooking a nation’s diversity of gifts."
+      ],
+      "questions": [
+        {
+          "no": 21,
+          "stem": "A broken bike chain is mentioned to show students’ lack of",
+          "options": {
+            "A": "practical ability.",
+            "B": "academic training.",
+            "C": "pioneering spirit.",
+            "D": "mechanical memorization."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 22,
+          "stem": "There exists the prejudice that vocational education is for kids who",
+          "options": {
+            "A": "have a stereotyped mind.",
+            "B": "have no career motivation.",
+            "C": "are not academically successful.",
+            "D": "are financially disadvantaged."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 23,
+          "stem": "We can infer from Paragraph 5 that high school graduates",
+          "options": {
+            "A": "used to have big financial concerns.",
+            "B": "used to have more job opportunities.",
+            "C": "are reluctant to work in manufacturing.",
+            "D": "are entitled to more educational privileges."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 24,
+          "stem": "The headlong push into bachelor’s degrees for all",
+          "options": {
+            "A": "helps create a lot of middle-skill jobs.",
+            "B": "may narrow the gap in working-class jobs.",
+            "C": "is expected to yield a better-trained workforce.",
+            "D": "indicates the overvaluing of higher education."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 25,
+          "stem": "The author’s attitude toward Koziatek’s school can be described as",
+          "options": {
+            "A": "supportive.",
+            "B": "tolerant.",
+            "C": "disappointed.",
+            "D": "cautious."
+          },
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "textNo": 2,
+      "paragraphs": [
+        "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line.",
+        "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources. But increasingly the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one- third in the past eight years.",
+        "In many parts of the world renewable energy is already a principal energy source. In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes. While the rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift. In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+        "President Trump has underlined fossil fuels—especially coal—as the path to economic growth. In a recent speech in Iowa, he dismissed wind power as an unreliable energy source. But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+        "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
+        "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles. Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
+        "While there’s a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought."
+      ],
+      "questions": [
+        {
+          "no": 26,
+          "stem": "The word “plummeting” (Para.2) is closest in meaning to",
+          "options": {
+            "A": "stabilizing.",
+            "B": "changing.",
+            "C": "falling.",
+            "D": "rising."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 27,
+          "stem": "According to Paragraph 3, the use of renewable energy in America",
+          "options": {
+            "A": "is progressing notably.",
+            "B": "is as extensive as in Europe.",
+            "C": "faces many challenges.",
+            "D": "has proved to be impractical."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 28,
+          "stem": "It can be learned that in Iowa,",
+          "options": {
+            "A": "wind is a widely used energy source.",
+            "B": "wind energy has replaced fossil fuels.",
+            "C": "tech giants are investing in clean energy.",
+            "D": "there is a shortage of clean energy supply."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 29,
+          "stem": "Which of the following is true about clean energy according to Paragraphs 5 & 6?",
+          "options": {
+            "A": "Its application has boosted battery storage.",
+            "B": "It is commonly used in car manufacturing.",
+            "C": "Its continuous supply is becoming a reality.",
+            "D": "Its sustainable exploitation will remain difficult."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 30,
+          "stem": "It can be inferred from the last paragraph that renewable energy",
+          "options": {
+            "A": "will bring the US closer to other countries.",
+            "B": "will accelerate global environmental change.",
+            "C": "is not really encouraged by the US government.",
+            "D": "is not competitive enough with regard to its cost."
+          },
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "textNo": 3,
+      "paragraphs": [
+        "The power and ambition of the giants of the digital economy is astonishing— Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+        "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May’s enemies are currently plotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.",
+        "Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+        "The users of their services are not their customers. That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+        "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn’t feel like a human or democratic relationship, even if both sides benefit."
+      ],
+      "questions": [
+        {
+          "no": 31,
+          "stem": "According to Paragraph1, Facebook acquired WhatsApp for its",
+          "options": {
+            "A": "digital products.",
+            "B": "user information.",
+            "C": "physical assets.",
+            "D": "quality service."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 32,
+          "stem": "Linking phone numbers to Facebook identities may",
+          "options": {
+            "A": "worsen political disputes.",
+            "B": "mess up customer records.",
+            "C": "pose a risk to Facebook users.",
+            "D": "mislead the European commission."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 33,
+          "stem": "According to the author, competition law",
+          "options": {
+            "A": "should serve the new market powers.",
+            "B": "may worsen the economic imbalance.",
+            "C": "should not provide just one legal solution.",
+            "D": "cannot keep pace with the changing market."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 34,
+          "stem": "Competition law as presently interpreted can hardly protect Facebook users because",
+          "options": {
+            "A": "they are not defined as customers.",
+            "B": "they are not financially reliable.",
+            "C": "the services are generally digital.",
+            "D": "the services are paid for by advertisers."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 35,
+          "stem": "The ants analogy is used to illustrate",
+          "options": {
+            "A": "a win-win business model between digital giants.",
+            "B": "a typical competition pattern among digital giants.",
+            "C": "the benefits provided for digital giants’ customers.",
+            "D": "the relationship between digital giants and their users."
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "textNo": 4,
+      "paragraphs": [
+        "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction. There are a number of approaches to mastering the art of deep work— be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
+        "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time. “At any given point, I should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would a doctor’s appointment or important meeting,” he writes.",
+        "Another approach to getting more done in less time is to rethink how you prioritise your day—in particular how we craft our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and golds in much more detail, day by day.",
+        "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+        "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy”. “Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body... [ idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+        "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+        "“What people don’t realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,” says Pillay."
+      ],
+      "questions": [
+        {
+          "no": 36,
+          "stem": "The key to mastering the art of deep work is to",
+          "options": {
+            "A": "keep to your focus time.",
+            "B": "list your immediate tasks.",
+            "C": "make specific daily plans.",
+            "D": "seize every minute to work."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 37,
+          "stem": "The study in the early 1980s cited by Harford shows that",
+          "options": {
+            "A": "distractions may actually increase efficiency.",
+            "B": "daily schedules are indispensable to studying.",
+            "C": "students are hardly motivated by monthly goals.",
+            "D": "detailed plans may not be as fruitful as expected."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 38,
+          "stem": "According to Newport, idleness is",
+          "options": {
+            "A": "a desirable mental state for busy people.",
+            "B": "a major contributor to physical health.",
+            "C": "an effective way to save time and energy.",
+            "D": "an essential factor in accomplishing any work."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 39,
+          "stem": "Pillay believes that our brains’ shift between being focused and unfocused",
+          "options": {
+            "A": "can result in psychological well-being.",
+            "B": "can bring about greater efficiency.",
+            "C": "is aimed at better balance in work.",
+            "D": "is driven by task urgency."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 40,
+          "stem": "This text is mainly about",
+          "options": {
+            "A": "ways to relieve the tension of busy life.",
+            "B": "approaches to getting more done in less time.",
+            "C": "the key to eliminating distractions.",
+            "D": "the cause of the lack of focus time."
+          },
+          "answer": "B"
+        }
+      ]
+    }
+  ],
+  "newQuestionType": {
+    "kind": "other",
+    "directions": "Part B\nDirections:\nRead the following text and answer the questions by choosing the most suitable\nsubtitles from the list A-G for each numbered paragraph (41-45). There are two\nextra subtitles which you do not need to use. Mark your answers on the ANSWER\nSHEET. (10 points)",
+    "content": "[A] Just say it\n[B] Be present\n[C] Pay a unique compliment\n[D] Name, places, things\n[E] Find the “me too”s\n[F] Skip the small talk\n[G] Ask for an opinion\nFive ways to make conversation with anyone\nConversations are links, which means when you have a conversation with a\nnew person a link gets formed and every conversation you have after that moment\nwill strengthen the link.\nYou meet new people every day: the grocery worker, the cab driver, new\npeople at work or the security guard at the door. Simply starting a conversation\nwith them will form a link.\nHere are five simple ways that you can make the first move and start a\nconversation with strangers.\n(41)\nSuppose you are in a room with someone you don’t know and something\nwithin you says “I want to talk with this person”—this is something that mostly\nhappens with all of us. You wanted to say something—the first word—but it just\nwon’t come out, it feels like it is stuck somewhere. I know the feeling and here is\nmy advice: just get it out.\nJust think: what is the worst that could happen? They won’t talk with you?\nWell, they are not talking with you now!\nI truly believe that once you get that first word out everything else will just\nflow. So keep it simple: “Hi”, “Hey” or “Hello”—do the best you can to gather\nall of the enthusiasm and energy you can, put on a big smile and say “Hi”.\n(42)\nIt’s a problem all of us face; you have limited time with the person that you\nwant to talk with and you want to make this talk memorable.\nHonestly, if we got stuck in the rut of “hi”, “hello”, “how are you?” and\n“what’s going on?”, you will fail to give the initial jolt to the conversation that\ncan make it so memorable.\nSo don’t be afraid to ask more personal questions. Trust me, you’ll be\nsurprised to see how much people are willing to share if you just ask.\n(43)\nWhen you meet a person for the first time, make an effort to find the things\nwhich you and that person have in common so that you can build the conversation\nfrom that point. When you start conversation from there and then move outwards,\nyou’ll find all of a sudden that the conversation becomes a lot easier.\n(44)\nImagine you are pouring your heart out to someone and they are just busy\non their phone, and if you ask for their attention you get the response “I can\nmultitask”.\nSo when someone tries to communicate with you, just be in that\ncommunication wholeheartedly. Make eye contact. Trust me, eye contact is\nwhere all the magic happens. When you make eye contact, you can feel the\nconversation.\n(45)\nYou all came into a conversation where you first met the person, but after\nsome time you may have met again and have forgotten their name. Isn’t that\nawkward! So, remember the little details of the people you met or you talked\nwith; perhaps the places they have been to, the places they want to go, the things\nthey like, the things they hate—whatever you talk about.\nWhen you remember such things you can automatically become investor\nin their wellbeing. So they feel a responsibility to you to keep that relationship\ngoing.\nThat’s it. Five amazing ways that you can make conversation with almost\nanyone. Every person is a really good book to read, or to have a conversation\nwith!",
+    "items": [],
+    "answers": {
+      "41": "A",
+      "42": "F",
+      "43": "E",
+      "44": "B",
+      "45": "D"
+    }
+  },
+  "translation": {
+    "source": "A fifth grader gets a homework assignment to select his future career path from a list of occupations. He ticks “astronaut” but quickly adds “scientist” to the list and selects it as well. The boy is convinced that if he reads enough, he can explore as many career paths as he likes. And so he reads—everything from encyclopedias to science fiction novels. He reads so passionately that his parents have to institute a “no reading policy” at the dinner table.\n\nThat boy was Bill Gates, and he hasn’t stopped reading yet—not even after becoming one of the most successful people on the planet. Nowadays, his reading material has changed from science fiction and reference books: recently, he revealed that he reads at least 50 nonfiction books a year. Gates chooses nonfiction titles because they explain how the world works. “Each book opens up new avenues of knowledge to explore,” Gates says.",
+    "reference": "一个五年级学生拿到一份家庭作业，要求从一份职业列表中选择将来的职业道路。他勾选了“宇航员”，但很快在表上添加了“科学家”，并将它也选上。这个男孩子相信，只要他读得够多，那么他想探索多少职业道路都可以。于是，他就这样读书——从百科全书到科幻小说，什么都看。他如饥似渴地读书，以至于他的父母不得不立下一条吃饭时“不许看书的规矩”。 那个男孩就是比尔·盖茨（Bill Gates)，而且，他至今依然没有停止阅读—— 即便他已经成为这颗星球上最成功的人士之一。如今，他阅读的材料已经不再是科幻小说和参考书：最近，他透露说自己一年至少看 50 本非虚构作品。 盖茨之所以选择非虚构作品，是因为它们解释世界是如何运行的。盖茨说：“每本书都开辟出新的知识途径。”"
+  },
+  "writing": {
+    "partA": {
+      "text": "47. Directions:\nSuppose you have to cancel your travel plan and will not be able to visit\nProfessor Smith. Write him an email to\n1) apologize and explain the situation, and\n2) suggest a future meeting.\nYou should write about 100 words on the ANSWER SHEET.\nDo not use your own name. Use “Li Ming” instead.\nDo not write your address. (10 points)",
+      "material": ""
+    },
+    "partB": {
+      "text": "48. Directions:\nWrite an essay based on the chart below. In your writing, you should\n1) interpret the chart, and\n2) give your comments.\nYou should write about 150 words on the ANSWER SHEET. (15 points)",
+      "material": ""
+    }
+  },
+  "stats": {
+    "cloze": 20,
+    "reading": 20,
+    "newQuestionType": 5
+  }
+}

@@ -365,3 +365,54 @@ python -m unittest discover -s tests -v
 - 阅读、完形、翻译、作文评分规则补充
 - 更好的示例 prompt 和输出样例
 - 测试用例、文档纠错和安装体验优化
+
+## 🌐 Web 学习平台（Echo 英语二）
+
+本仓库同时包含一个可直接部署的「Echo 考研英语（二）AI 学习平台」，只使用英语二语料（2010–2026），面向手机与电脑浏览器。
+
+### 功能
+
+- 英语二历年真题库、阅读练习、完形填空、翻译练习与 AI 批改、小/大作文 AI 批改
+- AI 阅读逐题解析、AI 模拟考试（90 分客观题自动判分）、AI 答疑
+- 注册/登录、错题本、收藏夹、学习记录与正确率统计（用户数据隔离）
+- DeepSeek 仅在服务端调用，前端不暴露 API Key
+
+### 本地运行
+
+```powershell
+npm install
+npm run corpus:build   # 从 skills/references 解析英语二语料到 src/data
+npm run dev            # http://localhost:3000
+```
+
+本地未配置数据库时使用 `.data/db.json` 文件存储，仅适合开发。
+
+### 环境变量
+
+复制 `.env.example` 为 `.env`，按需填写：
+
+| 变量 | 说明 |
+| --- | --- |
+| `DEEPSEEK_API_KEY` | DeepSeek API Key，仅服务端使用 |
+| `AUTH_SECRET` | 登录 JWT 签名密钥，生产环境必填 |
+| `SUPABASE_URL` | Supabase 项目地址，生产环境必填 |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase service_role key，仅服务端使用 |
+
+### 数据库
+
+在 Supabase SQL Editor 中执行 [`database/schema.sql`](./database/schema.sql)，会创建 `users`、`attempts`、`wrong_items`、`favorites` 四张表并开启 RLS。
+
+### Vercel 部署
+
+1. 将仓库推送到 GitHub。
+2. Vercel 新建项目并导入该仓库，Framework 选择 Next.js。
+3. 在 Vercel 项目 Settings → Environment Variables 中填写上表四个变量。
+4. Deploy，即可获得 HTTPS 公网域名。
+
+### 测试与构建
+
+```powershell
+npm run test    # Vitest：语料完整性、答案对齐、会话、统计、AI JSON 解析
+npm run build   # 语料构建 + Next.js 生产构建
+```
+

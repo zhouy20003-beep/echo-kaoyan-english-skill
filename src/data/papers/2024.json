@@ -1,0 +1,535 @@
+{
+  "year": 2024,
+  "cloze": {
+    "passage": "Your social life is defined as “the activities you do with other people, for pleasure, when you are not working”. It’s important to have a social life, but what’s right for one person won’t be right for another. Some of us feel energised by spending lots of time with others, {{1}} some of us may feel drained, even if it’s doing something we enjoy.\n\nThis is why finding a {{2}} in your social life is key. Spending too much time on your own, not {{3}} others, can make you feel lonely and {{4}} . Loneliness is known to impact on your mental health and {{5}} a low mood. Anyone can feel lonely at any time. This might be especially true if, {{6}} , you are working from home and you are {{7}} on the usual social conversations that happen in an office. Other life changes can {{8}} periods of loneliness too, such as retirement, changing jobs or becoming a parent.\n\nIt’s important to recognise these feelings of loneliness. There are ways to {{9}} a social life, but it can feel overwhelming {{10}} . It’s a great idea to start by thinking about hobbies you enjoy. You can then find groups and activities related to those where you will be able to meet {{11}} people. There are groups aimed at new parents, at those who want to {{12}} a new sport for the first time, or networking events for those in the same profession to meet up and {{13}} ideas.\n\nOn the other hand, it’s {{14}} possible to have too much of a social life. If you feel like you’re always doing something and there is never any {{15}} in your calendar for downtime, you could suffer social burnout or social {{16}} . We all have our own social limit and it’s important to recognise when you’re feeling like it’s all too much. Low mood, low energy, irritability and trouble sleeping could all be {{17}} of poor social health. Make sure you {{18}} some time in your diary when you’re {{19}} for socialising and use this time to relax, {{20}} and recover.",
+    "questions": [
+      {
+        "no": 1,
+        "options": {
+          "A": "because",
+          "B": "unless",
+          "C": "whereas",
+          "D": "until"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 2,
+        "options": {
+          "A": "contrast",
+          "B": "balance",
+          "C": "link",
+          "D": "gap"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 3,
+        "options": {
+          "A": "seeing",
+          "B": "pleasing",
+          "C": "judging",
+          "D": "teaching"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 4,
+        "options": {
+          "A": "misguided",
+          "B": "surprised",
+          "C": "spoiled",
+          "D": "disconnected"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 5,
+        "options": {
+          "A": "contribute to",
+          "B": "rely on",
+          "C": "interfere with",
+          "D": "go against"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 6,
+        "options": {
+          "A": "in fact",
+          "B": "of course",
+          "C": "for example",
+          "D": "on average"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 7,
+        "options": {
+          "A": "cutting back",
+          "B": "missing out",
+          "C": "breaking in",
+          "D": "looking down"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 8,
+        "options": {
+          "A": "shorten",
+          "B": "trigger",
+          "C": "follow",
+          "D": "interrupt"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 9,
+        "options": {
+          "A": "assess",
+          "B": "interpret",
+          "C": "provide",
+          "D": "regain"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 10,
+        "options": {
+          "A": "at first",
+          "B": "in turn",
+          "C": "on time",
+          "D": "by chance"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 11,
+        "options": {
+          "A": "far-sighted",
+          "B": "strong-willed",
+          "C": "kind-hearted",
+          "D": "link-minded"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 12,
+        "options": {
+          "A": "try",
+          "B": "promote",
+          "C": "watch",
+          "D": "describe"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 13,
+        "options": {
+          "A": "test",
+          "B": "share",
+          "C": "accept",
+          "D": "revise"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 14,
+        "options": {
+          "A": "already",
+          "B": "thus",
+          "C": "also",
+          "D": "only"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 15,
+        "options": {
+          "A": "list",
+          "B": "order",
+          "C": "space",
+          "D": "boundary"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 16,
+        "options": {
+          "A": "fatigue",
+          "B": "criticism",
+          "C": "injustice",
+          "D": "dilemma"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 17,
+        "options": {
+          "A": "sources",
+          "B": "standards",
+          "C": "signs",
+          "D": "scores"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 18,
+        "options": {
+          "A": "take over",
+          "B": "wipe off",
+          "C": "add up",
+          "D": "mark out"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 19,
+        "options": {
+          "A": "ungrateful",
+          "B": "unavailable",
+          "C": "responsible",
+          "D": "regretful"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 20,
+        "options": {
+          "A": "seeing",
+          "B": "pleasing",
+          "C": "judging",
+          "D": "teaching 这些选项不能只按中文意思选。更稳的做法是先确定空格在句中的语法角色，再看它和前后关键词之间是否形成自然搭配，最后用全文主题检查语义是否跑偏。 ### 易错点总结 - 只看空格所在半句，忽略上一句铺垫或下一句解释，容易把“局部通顺”的选项误当答案。 - 把近义词当成可互换词，忽略语体、搭配对象和逻辑方向，是完形高频失分原因。 - 遇到转折、让步、因果、递进时，要先判断作者态度和事件走向；逻辑方向判断错，后面的词义判断通常也会错。 - 名词空重点看可数性、抽象/具体属性和前置修饰；动词空重点看主语、宾语和时态语态；形容词/副词空重点看评价色彩和程度。 - 复盘时不要只记答案字母，应把正确选项放回原句朗读一遍，确认句法、语义和篇章三层都成立。 <!-- echo-enrichment:end -->"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  "readings": [
+    {
+      "textNo": 1,
+      "paragraphs": [
+        "In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle, an economist at Cambridge University, argues that the digital economy requires new ways of thinking about progress. “Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes. “An economy of tech millionaires or billionaires and gig workers, with middle-income jobs undercut by automation, will not be politically sustainable.”",
+        "Improving living standards and increasing prosperity for more people will require greater use of digital technologies to boost productivity in various sectors, including health care and construction, says Coyle. But people can’t be expected to embrace the changes if they’re not seeing the benefits—if they’re just seeing good jobs being destroyed.",
+        "In a recent interview, Coyle said she fears that tech’s inequality problem could be a roadblock to deploying AI. “We’re talking about disruption,” she says.",
+        "“These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.” To make such “tremendous changes,” she adds, you need social buy-in.",
+        "Instead, says Coyle, resentment is simmering among many as the benefits are perceived to go to elites in a handful of prosperous cities. According to the Brookings Institution, a short list of eight American cities that included San Francisco, San Jose, Boston, and Seattle had roughly 38% of all tech jobs by 2019. New AI technologies are particularly concentrated: Brookings’s Mark Muro and Sifan Liu estimate that just 15 cities account for two-thirds of the AI assets and capabilities in the United States.",
+        "The dominance of a few cities in the invention and commercialization of AI means that geographical disparities in wealth will continue to soar. Not only will this foster political and social unrest, but it could, as Coyle suggests, hold back the sorts of AI technologies needed for regional economies to grow.",
+        "Part of the solution could lie in somehow loosening the stranglehold that Big Tech has on defining the AI agenda. That will likely take increased federal funding for research independent of the tech giants.",
+        "A more immediate response is to broaden our digital imaginations to conceive of AI technologies that don’t simply replace jobs but expand opportunities in the sectors that different parts of the country care most about, like health care, education, and manufacturing."
+      ],
+      "questions": [
+        {
+          "no": 21,
+          "stem": "Coyle argues in her new book that economic growth should",
+          "options": {
+            "A": "give rise to innovations.",
+            "B": "diversify career choices.",
+            "C": "benefit people equally.",
+            "D": "be promoted forcefully."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 22,
+          "stem": "According to Paragraph 2, digital technologies should be used to",
+          "options": {
+            "A": "bring about instant prosperity.",
+            "B": "reduce people’s workload.",
+            "C": "raise overall work efficiency.",
+            "D": "enhance cross-sector cooperation."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 23,
+          "stem": "What does Coyle fear about transformative technologies?",
+          "options": {
+            "A": "They may affect work-life balance.",
+            "B": "They may be impractical to deploy.",
+            "C": "They may incur huge expenditure.",
+            "D": "They may be unwelcome to the public."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 24,
+          "stem": "Several American cities are mentioned to show",
+          "options": {
+            "A": "the uneven distribution of AI technologies in the US.",
+            "B": "the disappointing prospect of tech jobs in the US.",
+            "C": "the fast progress of US regional economies.",
+            "D": "the increasing significance of US AI assets."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 25,
+          "stem": "With regard to Coyle’s concern, the author suggests",
+          "options": {
+            "A": "raising funds to start new AI projects.",
+            "B": "encouraging collaboration in AI research.",
+            "C": "guarding against the side effects of AI.",
+            "D": "redefining the role of AI technologies."
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "textNo": 2,
+      "paragraphs": [
+        "The UK is facing a future construction crisis because of a failure to plant trees to produce wood, Confor has warned. The forestry and wood trade body has called for urgent action to reduce the country’s reliance on timber imports and provide a stable supply of wood for future generations. Currently only 20 per cent of the UK’s wood requirement is home-grown while it remains the second- largest net importer of timber in the world.",
+        "Coming at a time of fresh incentives from the UK government for landowners to grow more trees, the trade body says these don’t go far enough and fail to promote the benefits of planting them to boost timber supplies. “Not only are we facing a carbon crisis now, but we will also be facing a future construction crisis because of a failure to plant trees to produce wood,” said Stuart Goodall, chief executive of Confor. “For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices and fighting for future supplies of wood as global demand rises and our own supplies fall.”",
+        "The UK has ideal conditions for growing wood to build low-carbon homes and is a global leader in certifying that its forests are sustainably managed, Confor says. While around three quarters of Scottish homes are built from Scottish timber, the use of home-grown wood in England is only around 25 per cent. The causes of the UK’s current position are complex and range from outdated perceptions of productive forestry to the decimation of trees by grey squirrels. It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects.",
+        "While productive tree planting can deliver real financial benefits to rural economies and contribute to the UK’s net-zero strategy, the focus of government support continues to be on food production and the rewilding and planting of native woodland solely for biodiversity. Goodall added: “While food production and biodiversity health are clearly of critical importance, we need our land to also provide secure supplies of wood for construction, manufacturing and contribute to net zero.”",
+        "“While the UK government has stated its ambition for more tree planting, there has been little action on the ground. Confor is now calling for much greater impetus behind those aspirations to ensure we have enough wood to meet increasing demand.”"
+      ],
+      "questions": [
+        {
+          "no": 26,
+          "stem": "It can be learned from Paragraph 1 that the UK needs to",
+          "options": {
+            "A": "increase its domestic wood supply.",
+            "B": "reduce its demand for timber.",
+            "C": "lower its wood production costs.",
+            "D": "lift its control on timber imports."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 27,
+          "stem": "According to Confor, the UK government’s fresh incentives",
+          "options": {
+            "A": "can hardly address a construction crisis.",
+            "B": "are believed to come at a wrong time.",
+            "C": "seem to be misleading for landowners.",
+            "D": "will be too costly to put into practice."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 28,
+          "stem": "The UK’s exposure to fluctuating wood prices is a result of",
+          "options": {
+            "A": "the government’s inaction on timber imports.",
+            "B": "inadequate investment in growing wood.",
+            "C": "the competition among timber traders at home.",
+            "D": "wood producers’ motive to maximise profits."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 29,
+          "stem": "Which of the following causes the shortage of wood supply in the UK?",
+          "options": {
+            "A": "Excessive timber consumption in construction.",
+            "B": "Unfavourable conditions for growing wood.",
+            "C": "Outdated technologies of the wood industry.",
+            "D": "Farmers’ unwillingness to plant trees."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 30,
+          "stem": "What does Goodall think the UK government should do?",
+          "options": {
+            "A": "Subsidise the building of low-carbon homes.",
+            "B": "Pay greater attention to boosting rural economies.",
+            "C": "Provide more support for productive tree planting.",
+            "D": "Give priority to pursuing its net-zero strategy."
+          },
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "textNo": 3,
+      "paragraphs": [
+        "One of the biggest challenges in keeping unsafe aging drivers off the road is convincing them that it’s time to turn over the keys. “It’s a complete life- changer” when someone stops—or is forced to stop—driving, said former risk manager Anne M. Menke.",
+        "“The American Medical Association advises physicians that ‘in situations where clear evidence of substantial driving impairment implies a strong threat to patient and public safety, and where the physician’s advice to discontinue driving privileges is ignored, it is desirable and ethical to notify the Department of Motor Vehicles,’” Menke wrote. “Some states require physicians to report, others allow but do not mandate reports, while a few consider a report a breach of confidentiality. There could be liability and penalties if a physician does not act in accordance with state laws on reporting and confidentiality,” she counseled.",
+        "Part of the problem in keeping older drivers safe is that the difficulties are addressed piecemeal by different professions with different focuses, including gerontologists, highway administration officials, automotive engineers and others, said gerontologist Elizabeth Dugan. “There’s not a National Institute of Older Driver Studies,” she said. “We need better evidence on what makes drivers unsafe” and what can help, said Dugan.",
+        "One thing that does seem to work is requiring drivers to report in person for license renewal. Mandatory in-person renewal was associated with a 31 percent reduction in fatal crashes involving drivers 85 or older, according to one study.",
+        "Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two. Many older drivers don’t see eye doctors or can’t afford to. Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can’t turn their heads or remember where they are going—or have gotten shorter and haven’t changed their seat settings sufficiently to reach car pedals easily.",
+        "As long as there are other cars on the roads, self-driving cars won’t solve the problems of crashes, said Dugan. Avoiding dangers posed by all those human drivers would require too many algorithms, she said. But we need to do more to improve safety, said Dugan. “If we’re going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”"
+      ],
+      "questions": [
+        {
+          "no": 31,
+          "stem": "According to Paragraph 1, keeping unsafe aging drivers off the road",
+          "options": {
+            "A": "is a new safety measure.",
+            "B": "has become a disputed issue.",
+            "C": "can be a tough task to complete.",
+            "D": "will be beneficial to their health."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 32,
+          "stem": "The American Medical Association’s advice",
+          "options": {
+            "A": "has won support from drivers.",
+            "B": "is generally considered unrealistic.",
+            "C": "is widely dismissed as unnecessary.",
+            "D": "has met with different responses."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 33,
+          "stem": "According to Dugan, efforts to keep older drivers safe",
+          "options": {
+            "A": "have brought about big changes.",
+            "B": "need to be well coordinated.",
+            "C": "have gained public recognition.",
+            "D": "call for relevant legal support."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 34,
+          "stem": "Some older drivers have trouble driving because they tend to",
+          "options": {
+            "A": "stick with bad driving habits.",
+            "B": "have a weakened memory.",
+            "C": "suffer from chronic pains.",
+            "D": "neglect car maintenance."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 35,
+          "stem": "Dugan thinks that the solution to the problems of crashes may lie in",
+          "options": {
+            "A": "upgrading self-driving vehicles.",
+            "B": "developing senior-friendly cars.",
+            "C": "renovating transport facilities.",
+            "D": "adjusting the age limit for drivers."
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "textNo": 4,
+      "paragraphs": [
+        "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several. Whether it is a mental health app, a fitness tracker, a connected health device or something else, many of us are taking advantage of this technology to keep better track of our health in some shape or form. Recent research from the Organization for the Review of Care and Health Applications found that 350,000 health apps were available on the market, 90,000 of which launched in 2020 alone.",
+        "While these apps have a great deal to offer, it is not always clear how the personal information we input is collected, safeguarded and shared online. Existing health privacy law, such as the Health Insurance Portability and Accountability Act, is primarily focused on the way hospitals, doctors’ offices, clinics and insurance companies store health records online. The health information these apps and health data tracking wearables are collecting typically do not receive the same legal protections.",
+        "Without additional protections in place, companies may share (and potentially monetize) personal health information in a way consumers may not have authorized or anticipated. In 2021, Flo Health faced a Federal Trade Commission (FTC) investigation. The FTC alleged in a complaint that “despite express privacy claims, the company took control of users’ sensitive fertility data and shared it with third parties.” Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users’ express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained.",
+        "Section 5 of the FTC Act empowers the FTC to initiate enforcement action against unfair or deceptive acts, meaning the FTC can only act after the fact if a company’s privacy practices are misleading or cause unjustified consumer harm. While the FTC is doing what it can to ensure apps are keeping their promises to consumers around the handling of their sensitive health information, the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is.",
+        "As to the prospects for federal legislation, commentators suggest that comprehensive federal privacy legislation seems unlikely in the short term. States have begun implementing their own solutions to shore up protections for consumer- generated health data. California has been at the forefront of state privacy efforts with the California Consumer Privacy Act of 2018. Virginia, Colorado and Utah have also recently passed state consumer data privacy legislation."
+      ],
+      "questions": [
+        {
+          "no": 36,
+          "stem": "The research findings are cited in Paragraph 1 to show",
+          "options": {
+            "A": "the prevalence of health apps",
+            "B": "the public concern over health",
+            "C": "the popularity of smartphones",
+            "D": "the advancement of technology"
+          },
+          "answer": "A"
+        },
+        {
+          "no": 37,
+          "stem": "What does the author imply about existing health privacy law?",
+          "options": {
+            "A": "Its coverage needs to be extended.",
+            "B": "Its enforcement needs strengthening.",
+            "C": "It has discouraged medical misconduct.",
+            "D": "It has disappointed insurance companies."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 38,
+          "stem": "Before sharing its users’ health information, Flo Health is required to",
+          "options": {
+            "A": "seek the approval of the FTC",
+            "B": "find qualified third parties",
+            "C": "remove irrelevant personal data",
+            "D": "obtain their explicit permission"
+          },
+          "answer": "D"
+        },
+        {
+          "no": 39,
+          "stem": "What challenge is the FTC currently faced with?",
+          "options": {
+            "A": "The complexity of health information.",
+            "B": "The rapid increase in new health apps.",
+            "C": "The subtle deceptiveness of health apps.",
+            "D": "The difficulty in assessing consumer harm."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 40,
+          "stem": "It can be learned from the last paragraph that health data protection",
+          "options": {
+            "A": "has been embraced by health app developers",
+            "B": "has been a focus of federal policy-making",
+            "C": "has encountered opposition in California",
+            "D": "has gained legislative support in some states"
+          },
+          "answer": "D"
+        }
+      ]
+    }
+  ],
+  "newQuestionType": {
+    "kind": "matching",
+    "directions": "Part B\nDirections:\nRead the following text and match each of the numbered items in the left column\nto its corresponding information in the right column. There are two extra choices\nin the right column. Mark your answers on the ANSWER SHEET. (10 points)",
+    "content": "How Colleges Weigh Applicants’ Extracurricular Activities\nHigh school students eager to stand out in the college application process often\nparticipate in a litany of extracurricular activities hoping to bolster their chances of\nadmission to a selective undergraduate institution.\nHowever, college admissions experts say that the quality of a college hopeful’s\nextracurricular activities matters more than the number of activities he or she\nparticipates in.\nSue Rexford, the director of college guidance at the Charles E. Smith\nJewish Day School, says it is not necessary for a student filling out the Common\nApplication to list 10 activities in the application.\n“No college will expect that a student has a huge laundry list of extracurriculars\nthat they have been passionately involved in each for an extended period of time,”\nRexford wrote in an email.\nExperts say it is tougher to distinguish oneself in a school-affiliated\nextracurricular activity that is common among high school students than it is to\nstand out while doing an uncommon activity.\n“The competition to stand out and make an impact is going to be much stiffer,\nand so if they’re going to do a popular activity, I’d say, be the best at it,” says Sara\nHarberson, a college admissions consultant.\nHigh school students who have an impressive personal project they are\nworking on independently often impress colleges, experts say.\n“For example, a student with an interest in entrepreneurship could demonstrate\nskill and potential by starting a profitable small business,” Olivia Valdes, the\nfounder of Zen Admissions consulting firm, wrote in an email.\nJoseph Adegboyega-Edun, a Maryland high school guidance counselor,\nsays unconventional extracurricular activities can help students impress college\nadmissions offices, assuming they demonstrated serious commitment. “Again, since\none of the big questions high school seniors must consider is ‘What makes you\nunique?,’ having an uncommon extracurricular activity vs. a conventional one is an\nadvantage,” he wrote in an email.\nExperts say demonstrating talent in at least one extracurricular activity\ncan help in the college admissions process, especially at top-tier undergraduate\ninstitutions.\n“Distinguishing yourself in one focused type of extracurricular activity can\nbe a positive in the admissions process, especially for highly selective institutions,\nwhere having top grades and test scores is not enough,” Katie Kelley, admissions\ncounselor at IvyWise admissions consultancy, wrote in an email. “Students need to\nhave that quality or hook that will appeal to admissions officers and allow them to\nvisualize how the student might come and enrich their campus community.”\nExtracurricular activities related to the college major declared on a college\napplication are beneficial, experts suggest. “If you already know your major, having\nan extracurricular that fits into that major can be a big plus,” says Mayghin Levine,\nthe manager of educational opportunities with The Cabbage Patch Settlement\nHouse, a Louisville, Kentucky, nonprofit community center.\nHigh school students who have had a strong positive influence on their\ncommunity through an extracurricular activity may impress a college and win a\nscholarship, says Erica Gwyn, a former math and science magnet program assistant\nat a public high school who is now executive director of the Kaleidoscope Careers\nAcademy in Atlanta, a nonprofit organization.\n[A] Students who stand out in a specific extracurricular\nactivity will be favored by top-tier institutions.\n41. Sue Rexford [B] Students whose extracurricular activity has benefited\ntheir community are likely to win a scholarship.\n42. Sara Harberson [C] Undertaking too many extracurricular activities will\nhardly be seen as a plus by colleges.\n43. Katie Kelley [D] A student who exhibits abilities in doing business\ncan impress colleges.\n44. Mayghin Levine [E] High school students participating in a popular\nactivity should excel in it.\n45. Erica Gwyn [F] Engaging in uncommon activities can demonstrate\nstudents’ determination and dedication.\n[G] It is advisable for students to choose an extracurricular\nactivity that is related to their future study at college.",
+    "items": [
+      {
+        "no": 41,
+        "text": "Sue Rexford [B] Students whose extracurricular activity has benefited"
+      },
+      {
+        "no": 42,
+        "text": "Sara Harberson [C] Undertaking too many extracurricular activities will"
+      },
+      {
+        "no": 43,
+        "text": "Katie Kelley [D] A student who exhibits abilities in doing business"
+      },
+      {
+        "no": 44,
+        "text": "Mayghin Levine [E] High school students participating in a popular"
+      },
+      {
+        "no": 45,
+        "text": "Erica Gwyn [F] Engaging in uncommon activities can demonstrate"
+      }
+    ],
+    "answers": {
+      "41": "C",
+      "42": "E",
+      "43": "A",
+      "44": "G",
+      "45": "B"
+    }
+  },
+  "translation": {
+    "source": "With the smell of coffee and fresh bread floating in the air, stalls bursting with colourful vegetables and tempting cheeses, and the buzz of friendly chats, farmers’ markets are a feast for the senses. They also provide an opportunity to talk to the people responsible for growing or raising your food, support your local economy and pick up fresh seasonal produce—all at the same time.\n\nFarmers’ markets are usually weekly or monthly events, most often with outdoor stalls, which allow farmers or producers to sell their food directly to customers. The size or regularity of markets can vary from season to season, depending on the area’s agricultural calendar, and you’re likely to find different produce on sale at different times of the year. By cutting out the middleman, the farmers secure more profit for their produce. Shoppers also benefit from seeing exactly where—and to who—their money is going.",
+    "reference": "空气中弥漫着咖啡和新鲜面包的香味，摊位上摆满了色彩缤纷的蔬菜和令人垂涎的奶酪，友好的交谈声嘈杂而又喧闹着，农贸市场就是一场感官盛宴。它们还提供了一个机会，让人们既能与提供食物的种植者或养殖者交谈， 又能（在经济上）支持地方经济，同时还能买到新鲜便宜的时令农产品。 农贸市场通常是每周或每月举行一次的活动，其中最常见的是户外摊位， 这使得农民或生产者能够将他们的食物直接售卖给顾客。农贸市场的规模或规律因季节而异，这取决于当地的农历，你很可能会发现在一年中的不同时间点里会有不同的农产品在出售。通过省去中间商环节，农民可以从自己的农产品中获取更多的利润。顾客也能从中受益，因为他们能够清楚地看到自己的钱花在了哪里、付给了谁。"
+  },
+  "writing": {
+    "partA": {
+      "text": "47. Directions:\nSuppose you and Jack are going to do a survey on the protection of old\nhouses in an ancient town. Write him an email to\n1) put forward your plan, and\n2) ask for his opinion.\nWrite your answer in about 100 words on the ANSWER SHEET.\nDo not use your own name in your email; use “Li Ming” instead. (10 points)",
+      "material": ""
+    },
+    "partB": {
+      "text": "48. Directions:\nWrite an essay based on the chart below. In your essay, you should\ndescribe and interpret the chart, and\ngive your comments.\nWrite your answer in about 150 words on the ANSWER SHEET. (15 points)",
+      "material": "提升了动手能力\n学习了相关知识\n增强了合作能力\n感觉到心情舒畅\n100%\n84.8%\n91.3%\n32.6%\n54.4%\n80%60%40%20%0%\n某高校劳动实践课学生主要收获调查"
+    }
+  },
+  "stats": {
+    "cloze": 20,
+    "reading": 20,
+    "newQuestionType": 5
+  }
+}

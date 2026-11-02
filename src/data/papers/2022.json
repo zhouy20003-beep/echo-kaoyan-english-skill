@@ -1,0 +1,536 @@
+{
+  "year": 2022,
+  "cloze": {
+    "passage": "Harlan Coben believes that if you’re a writer, you’ll find the time; and that if you can’t find the time, then writing isn’t a priority and you’re not a writer. For him writing is a {{1}} job—a job like any other. He has {{2}} it with plumbing, pointing out that a plumber doesn’t wake up and say that he can’t work with pipes today.\n\n{{3}} , like most writers these days, you’re holding down a job to pay the bills, it’s not {{4}} to find the time to write. But it’s not impossible. It requires determination and single-mindedness. {{5}} that most bestselling authors began writing when they were doing other things to earn a living. And today, even writers who are fairly {{6}} often have to do other work to {{7}} their writing income.\n\nAs Harlan Coben has suggested, it’s a {{8}} of priorities. To make writing a priority, you’ll have to {{9}} some of your day-to-day activities and some things you really enjoy. Depending on your {{10}} and your lifestyle, that might mean spending less time watching television or listening to music, though some people can write {{11}} they listen to music. You might have to {{12}} the amount of exercise or sport you do. You’ll have to make social media an {{13}} activity rather than a daily, time-consuming {{14}} . There’ll probably have to be less socialising with your friends and less time with your family. It’s a {{15}} learning curve and it won’t always make you popular.\n\nThere’s just one thing you should try to keep at least some time for, {{16}} your writing—and that’s reading. Any writer needs to read as much and as widely as they can; it’s the one {{17}} supporter—something you can’t do without.\n\nTime is finite. The older you get, the {{18}} it seems to go. We need to use it as carefully and as {{19}} as we can, that means prioritising our activities so that we spend most time on the things we really want to do. If you’re a writer, that means— {{20}} writing.",
+    "questions": [
+      {
+        "no": 1,
+        "options": {
+          "A": "difficult",
+          "B": "normal",
+          "C": "steady",
+          "D": "pleasant"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 2,
+        "options": {
+          "A": "combined",
+          "B": "compared",
+          "C": "confused",
+          "D": "confronted"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 3,
+        "options": {
+          "A": "If",
+          "B": "Though",
+          "C": "Once",
+          "D": "Unless"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 4,
+        "options": {
+          "A": "enough",
+          "B": "strange",
+          "C": "wrong",
+          "D": "easy"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 5,
+        "options": {
+          "A": "Accept",
+          "B": "Explain",
+          "C": "Remember",
+          "D": "Suppose"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 6,
+        "options": {
+          "A": "well-known",
+          "B": "well-advised",
+          "C": "well-informed",
+          "D": "well-chosen"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 7,
+        "options": {
+          "A": "donate",
+          "B": "generate",
+          "C": "supplement",
+          "D": "calculate"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 8,
+        "options": {
+          "A": "cause",
+          "B": "purpose",
+          "C": "question",
+          "D": "condition"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 9,
+        "options": {
+          "A": "highlight",
+          "B": "sacrifice",
+          "C": "continue",
+          "D": "explore"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 10,
+        "options": {
+          "A": "relations",
+          "B": "interests",
+          "C": "memories",
+          "D": "skills"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 11,
+        "options": {
+          "A": "until",
+          "B": "because",
+          "C": "while",
+          "D": "before"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 12,
+        "options": {
+          "A": "put up with",
+          "B": "make up for",
+          "C": "hang on to",
+          "D": "cut down on"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 13,
+        "options": {
+          "A": "intelligent",
+          "B": "occasional",
+          "C": "intensive",
+          "D": "emotional"
+        },
+        "answer": "B"
+      },
+      {
+        "no": 14,
+        "options": {
+          "A": "habit",
+          "B": "test",
+          "C": "decision",
+          "D": "plan"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 15,
+        "options": {
+          "A": "tough",
+          "B": "gentle",
+          "C": "rapid",
+          "D": "funny"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 16,
+        "options": {
+          "A": "in place of",
+          "B": "in charge of",
+          "C": "in response to",
+          "D": "in addition to"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 17,
+        "options": {
+          "A": "indispensable",
+          "B": "innovative",
+          "C": "invisible",
+          "D": "instant"
+        },
+        "answer": "A"
+      },
+      {
+        "no": 18,
+        "options": {
+          "A": "duller",
+          "B": "harder",
+          "C": "quieter",
+          "D": "quicker"
+        },
+        "answer": "D"
+      },
+      {
+        "no": 19,
+        "options": {
+          "A": "peacefully",
+          "B": "generously",
+          "C": "productively",
+          "D": "gratefully"
+        },
+        "answer": "C"
+      },
+      {
+        "no": 20,
+        "options": {
+          "A": "If",
+          "B": "Though",
+          "C": "Once",
+          "D": "Unless 这些选项不能只按中文意思选。更稳的做法是先确定空格在句中的语法角色，再看它和前后关键词之间是否形成自然搭配，最后用全文主题检查语义是否跑偏。 ### 易错点总结 - 只看空格所在半句，忽略上一句铺垫或下一句解释，容易把“局部通顺”的选项误当答案。 - 把近义词当成可互换词，忽略语体、搭配对象和逻辑方向，是完形高频失分原因。 - 遇到转折、让步、因果、递进时，要先判断作者态度和事件走向；逻辑方向判断错，后面的词义判断通常也会错。 - 名词空重点看可数性、抽象/具体属性和前置修饰；动词空重点看主语、宾语和时态语态；形容词/副词空重点看评价色彩和程度。 - 复盘时不要只记答案字母，应把正确选项放回原句朗读一遍，确认句法、语义和篇章三层都成立。 <!-- echo-enrichment:end -->"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  "readings": [
+    {
+      "textNo": 1,
+      "paragraphs": [
+        "On a recent sunny day, 13,000 chickens roam over Larry Brown’s 40 windswept acres in Shiner, Texas. Some rest in the shade of a parked car. Others drink water with the cows. This all seems random, but it’s by design, part of what the $6.1 billion U.S. egg industry bets will be its next big thing: climate-friendly eggs.",
+        "These eggs, which are making their debut now on shelves for as much as $8 a dozen, are still labeled organic and animal-friendly, but they’re also from birds that live on farms using regenerative agriculture—special techniques to cultivate rich soils that can trap greenhouse gases. Such eggs could be marketed as helping to fight climate change.",
+        "“I’m excited about our progress,” says Brown, who harvests eggs for Denver-based NestFresh Eggs and is adding more cover crops that draw worms and crickets for the chickens to eat. The birds’ waste then fertilizes fields. Such improvements “allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.”",
+        "The egg industry’s push is the first major test of whether animal products from regenerative farms can become the next premium offering. In barely more than a decade, organic eggs went from being dismissed as a niche product in natural foods stores to being sold at Walmart. More recently there were similar doubts about probiotics and plant-based meats, but both have exploded into major supermarket categories. If the sustainable-egg rollout is successful, it could open the floodgates for regenerative beef, broccoli, and beyond.",
+        "Regenerative products could be a hard sell, because the concept is tough to define quickly, says Julie Stanton, associate professor of agricultural economics at Pennsylvania State University Brandywine. Such farming also brings minimal, if any, improvement to the food products (though some producers say their eggs have more protein).",
+        "The industry is betting that the same consumers paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs will embrace sustainability. Surveys show that younger generations are more concerned about climate change, and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment. Young adults “really care about the planet,” says John Brunnquell, president of Egg Innovations. “They are absolutely altering the food chain beyond what I think even they understand what they’re doing.”"
+      ],
+      "questions": [
+        {
+          "no": 21,
+          "stem": "The climate-friendly eggs are produced",
+          "options": {
+            "A": "at a considerably low cost.",
+            "B": "at the demand of regular shoppers.",
+            "C": "as a replacement for organic eggs.",
+            "D": "on specially designed farms."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 22,
+          "stem": "Larry Brown is excited about his progress in",
+          "options": {
+            "A": "reducing the damage of worms.",
+            "B": "accelerating the disposal of waste.",
+            "C": "creating a sustainable system.",
+            "D": "attracting customers to his products."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 23,
+          "stem": "The example of organic eggs is used in Paragraph 4 to suggest",
+          "options": {
+            "A": "the doubts over natural feeds.",
+            "B": "the setbacks in the egg industry.",
+            "C": "the potential of regenerative products.",
+            "D": "the promotional success of supermarkets."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 24,
+          "stem": "It can be learned from the last paragraph that young people",
+          "options": {
+            "A": "are reluctant to change their diet.",
+            "B": "are likely to buy climate-friendly eggs.",
+            "C": "are curious about new food.",
+            "D": "are amazed at agriculture advances."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 25,
+          "stem": "John Brunnquell would disagree with Julie Stanton over regenerative products’",
+          "options": {
+            "A": "market prospects.",
+            "B": "standard definition.",
+            "C": "nutritional value.",
+            "D": "moral implication."
+          },
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "textNo": 2,
+      "paragraphs": [
+        "More Americans are opting to work well into retirement, a growing trend that threatens to upend the old workforce model. One in three Americans who are at least 40 have or plan to have a job in retirement to prepare for a longer life, according to a survey conducted by Harris Poll for TD Ameritrade. Even more surprising is that more than half of “unretirees”— those who plan to work in retirement or went back to work after retiring—said they would be employed in their later years even if they had enough money to settle down, the survey showed.",
+        "Financial needs aren’t the only culprit for the “unretirement” trend. Other reasons, according to the study, include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression. About 72% of “unretiree” respondents said that they would return to work once retired to keep mentally fit while 59% said it would be tied to making ends meet.",
+        "“The concept of retirement is evolving,” said Christine Russell, senior manager of retirement at TD Ameritrade. “It’s not just about finances. The value of work is also driving folks to continue working past retirement.”",
+        "One reason for the change in retirement patterns: Americans are living longer. The share of the population 65 and older was 16% in 2018, up 32% from the prior year, according to the U.S. Census Bureau. That’s also up 302% since 2010.",
+        "Older Americans are also the fastest-growing segment of the U.S. workforce, and boomers are expected to live longer than previous generations. The percentage of retirement-age people in the labor force has doubled over the past three decades.",
+        "About 20% of people 65 and older were in the workforce in February, up from an all-time low of 10% in January 1985, according to money manager United Income. Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79. Six in 10 “unretirees” are increasing their savings in anticipation of a longer life, according to the survey. Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.",
+        "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that preretirees should speak with a financial adviser to set long-term financial goals.",
+        "“The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said. “It’s not just a financial decision, but an emotional one. Many people believe they can’t retire.”"
+      ],
+      "questions": [
+        {
+          "no": 26,
+          "stem": "The survey conducted by Harris Poll indicates that",
+          "options": {
+            "A": "over half of the retirees are physically fit for work.",
+            "B": "the old workforce is as active as the younger one.",
+            "C": "one in three Americans enjoy earlier retirement.",
+            "D": "more Americans are willing to work in retirement."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 27,
+          "stem": "It can be inferred from Paragraph 3 that Americans tend to think that",
+          "options": {
+            "A": "retirement may cause problems for them.",
+            "B": "boredom can be relieved after retirement.",
+            "C": "the mental health of retirees is overlooked.",
+            "D": "“unretirement” contributes to the economy."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 28,
+          "stem": "Retirement patterns are changing partly due to",
+          "options": {
+            "A": "labor shortage.",
+            "B": "population growth.",
+            "C": "longer life expectancy.",
+            "D": "rising living costs."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 29,
+          "stem": "Many “unretirees” are increasing their savings by",
+          "options": {
+            "A": "investing more in stocks.",
+            "B": "taking up odd jobs.",
+            "C": "getting well-paid work.",
+            "D": "spending less."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 30,
+          "stem": "With regard to retirement, Brent Weiss thinks that many people are",
+          "options": {
+            "A": "unprepared.",
+            "B": "unafraid.",
+            "C": "disappointed.",
+            "D": "enthusiastic."
+          },
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "textNo": 3,
+      "paragraphs": [
+        "We have all encountered them, in both our personal and professional lives. Think about the times you felt tricked or frustrated by a membership or subscription that had a seamless sign-up process but was later difficult to cancel. Something that should be simple and transparent can be complicated, intentionally or unintentionally, in ways that impair consumer choice. These are examples of dark patterns.",
+        "First coined in 2010 by user experience expert Harry Brignull, “dark patterns” is a catch-all term for practices that manipulate user interfaces to influence the decision-making ability of users. Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to “roach motel,” where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out.",
+        "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood. Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
+        "Where is the line between ethical, persuasive design and dark patterns? Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders responsible for the company’s user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions. Any or all these teams can play a role in creating or avoiding “digital deception.”",
+        "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level. In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act (CCPA) that “ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.” The regulations aim to ban dark patterns—this means prohibiting companies from using “confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn’t opt out.”",
+        "As more states consider promulgating additional regulations, there is a need for greater accountability from within the business community. Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable, not just to legal requirements but also to industry best practices and standards."
+      ],
+      "questions": [
+        {
+          "no": 31,
+          "stem": "It can be learned from the first two paragraphs that dark patterns",
+          "options": {
+            "A": "improve user experiences.",
+            "B": "leak user information for profit.",
+            "C": "undermine users’ decision-making.",
+            "D": "remind users of hidden costs."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 32,
+          "stem": "The 2019 study on dark patterns is mentioned to show",
+          "options": {
+            "A": "their major flaws.",
+            "B": "their complex designs.",
+            "C": "their severe damage.",
+            "D": "their strong presence."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 33,
+          "stem": "To handle digital deception, businesses should",
+          "options": {
+            "A": "listen to customer feedback.",
+            "B": "talk with relevant teams.",
+            "C": "turn to independent agencies.",
+            "D": "rely on professional training."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 34,
+          "stem": "The additional regulations under the CCPA are intended to",
+          "options": {
+            "A": "guide users through opt-out processes.",
+            "B": "protect consumers from being tricked.",
+            "C": "grant companies data privacy rights.",
+            "D": "restrict access to problematic content."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 35,
+          "stem": "According to the last paragraph, a key to coping with dark patterns is",
+          "options": {
+            "A": "new legal requirements.",
+            "B": "businesses’ self-discipline.",
+            "C": "strict regulatory standards.",
+            "D": "consumers’ safety awareness."
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "textNo": 4,
+      "paragraphs": [
+        "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports. But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
+        "The researchers investigated one class session’s impact on eating meat. They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students’ attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering. Half of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion. The other half focused on charitable giving instead. Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester— nearly 14,000 receipts for almost 500 students.",
+        "Schwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books. But among student subjects who discussed meat ethics, meal purchases containing meat decreased from 52 to 45 percent—and this effect held steady for the study’s duration of several weeks. Purchases from the other group remained at 52 percent.",
+        "“That’s actually a pretty large effect for a pretty small intervention,” Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable. And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
+        "Schwitzgebel suspects the greatest impact came from social influence— classmates or teaching assistants leading the discussions may have shared their own vegetarianism, showing it as achievable or more common. Second, the video may have had an emotional impact. Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role. Now the researchers are probing the specific effects of teaching style, teaching assistants’ eating habits and students’ video exposure. Meanwhile, Schwitzgebel—who had predicted no effect—will be eating his words."
+      ],
+      "questions": [
+        {
+          "no": 36,
+          "stem": "Scientists generally believe that the effects of ethics classes are",
+          "options": {
+            "A": "hard to determine.",
+            "B": "narrowly interpreted.",
+            "C": "difficult to ignore.",
+            "D": "poorly summarized."
+          },
+          "answer": "A"
+        },
+        {
+          "no": 37,
+          "stem": "Which of the following is a reason for the researchers to study meat eating?",
+          "options": {
+            "A": "It is common among students.",
+            "B": "It is a behavior easy to measure.",
+            "C": "It is important to students’ health.",
+            "D": "It is a hot topic in ethics classes."
+          },
+          "answer": "B"
+        },
+        {
+          "no": 38,
+          "stem": "Eric Schwitzgebel’s previous findings suggest that ethics professors",
+          "options": {
+            "A": "are seldom critical of their students.",
+            "B": "are less sociable than other professors.",
+            "C": "are not sensitive to political issues.",
+            "D": "are not necessarily ethically better."
+          },
+          "answer": "D"
+        },
+        {
+          "no": 39,
+          "stem": "Nina Strohminger thinks that the effect of the intervention is",
+          "options": {
+            "A": "permanent.",
+            "B": "predictable.",
+            "C": "uncertain.",
+            "D": "unrepeatable."
+          },
+          "answer": "C"
+        },
+        {
+          "no": 40,
+          "stem": "Eric Schwitzgebel suspects that the students’ change in behavior",
+          "options": {
+            "A": "can bring psychological benefits.",
+            "B": "can be analyzed statistically.",
+            "C": "is a result of multiple factors.",
+            "D": "is a sign of self-development."
+          },
+          "answer": "C"
+        }
+      ]
+    }
+  ],
+  "newQuestionType": {
+    "kind": "other",
+    "directions": "Part B\nDirections:\nRead the following text and answer the questions by choosing the most suitable\nsubheading from the list A-G for each numbered paragraph (41-45). There are\ntwo extra subheadings which you do not need to use. Mark your answers on the\nANSWER SHEET. (10 points)",
+    "content": "[A] Make It a Habit.\n[B] Don’t Go It Alone.\n[C] Start Low, Go Slow.\n[D] Talk With Your Doctor.\n[E] Listen to Your Body.\n[F] Go Through the Motions.\n[G] Round Out Your Routine.\nHow to Get Active Again\nGetting back into exercise can be a challenge in the best of times, but with\ngyms and in-person exercise classes off-limits to many people these days, it\ncan be tricky to know where to start. And it’s important to get the right dose of\nactivity. “Too much too soon either results in injury or burnout,” says Mary Yoke,\nPhD, a faculty member in the kinesiology department at Indiana University in\nBloomington. The following simple strategies will help you return to exercise\nsafely after a break.\n41. __________________\nDon’t try to go back to what you were doing before your break. If you were\nwalking 3 miles a day, playing 18 holes of golf three times a week, or lifting\n10-pound dumbbells for three sets of 10 reps, reduce activity to half a mile\nevery other day, or nine holes of golf once a week with short walks on other\ndays, or use 5-pound dumbbells for one set of 10 reps. Increase time, distance,\nand intensity gradually. “This isn’t something you can do overnight,” says Keri\nL. Denay, MD, lead author of a recent American College of Sports Medicine\nadvisory that encourages Americans to not overlook the benefits of activity\nduring the pandemic. But you will reap benefits such as less anxiety and improve\nsleep right away.\n42. __________________\nIf you’re breathing too hard to talk in complete sentences, back off. If you\nfeel good, go a little longer or faster. Feeling wiped out after a session? Go easier\nnext time. And stay alert to serious symptoms, such as chest pain or pressure,\nsevere shortness of breath or dizziness, or faintness, and seek medical attention\nimmediately.\n43. __________________\nConsistency is the key to getting stronger and building endurance and\nstamina. Ten minutes of activity per day is a good start, says Marcus Jackovitz,\nDPT, a physical therapist at the University of Miami Hospital. All the experts we\nspoke with highly recommend walking because it’s the easiest, most accessible\nform of exercise. Although it can be a workout on its own, if your goal is to get\nback to Zumba classes, tennis, cycling, or any other activity, walking is also a\ngreat first step.\n44. __________________\nEven if you can’t yet do a favorite activity, you can practice the moves. With\nor without a club or racket, swing like you’re hitting the ball. Paddle like you’re\nin a kayak or canoe. Mimic your favorite swimming strokes. The action will\nremind you of the joy the activity brought you and prime your muscles for when\nyou can get out there again.\n45. __________________\nExercising with others “can keep you accountable and make it more fun, so\nyou’re more likely to do it again,” Jackovitz says. You can do activities such as\ngolf and tennis or take a walk with others and still be socially distant. But when\nyou can’t connect in person, consider using technology. Chat on the phone with\na friend while you walk around your neighborhood. FaceTime with a relative\nas you strength train or stretch at home. You can also join a livestream or on-\ndemand exercise class.",
+    "items": [
+      {
+        "no": 41,
+        "text": "__________________"
+      },
+      {
+        "no": 42,
+        "text": "__________________"
+      },
+      {
+        "no": 43,
+        "text": "__________________"
+      },
+      {
+        "no": 44,
+        "text": "__________________"
+      },
+      {
+        "no": 45,
+        "text": "__________________"
+      }
+    ],
+    "answers": {
+      "41": "C",
+      "42": "E",
+      "43": "A",
+      "44": "F",
+      "45": "B"
+    }
+  },
+  "translation": {
+    "source": "Although we try our best, sometimes our paintings rarely turn out as originally planned. Changes in the light, the limitations of your painting materials, and the lack of experience and technique mean that what you start out trying to achieve may not come to life the way that you expected.\n\nAlthough this can be frustrating and disappointing, it turns out that this can actually be good for you. Unexpected results have two benefits: you pretty quickly learn to deal with disappointment, and realise that when one door closes, another opens. You also quickly learn to adapt and come up with creative solutions to the problems the painting presents, and thinking outside the box will become your second nature.\n\nIn fact, creative problem-solving skills are incredibly useful in daily life, with which you’re more likely to be able to find a solution when a problem arises.",
+    "reference": "虽然我们竭尽所能，但有时我们的画作很少符合最初的计划。光线的改变、绘画材料的限制以及经验和技巧的不足，都意味着起初想要达到的效果未必能够如你所愿地呈现出来。 尽管这难免让人沮丧失望，但结果其实可能对你有益。意料之外的结果有两个好处：你会很快学会处理失望情绪，并意识到当一扇门关上时，另一扇门就会打开。你也会很快学会适应，想出创造性的解决方案，解决画作中出现的问题，跳出常规进行思考会成为你的第二天性。 事实上，创造性解决问题的技能在日常生活中极为有用，有了这种技能， 发生问题时你就更有可能找到解决办法。"
+  },
+  "writing": {
+    "partA": {
+      "text": "47. Directions:\nSuppose you are planning a campus food festival. Write an e-mail to the\ninternational students in your university to\n1) introduce the food festival, and\n2) invite them to participate.\nYou should write about 100 words on the ANSWER SHEET.\nDo not use your own name. Use “Li Ming” instead. (10 points)",
+      "material": ""
+    },
+    "partB": {
+      "text": "48. Directions:\nWrite an essay based on the following chart . In your writing, you should\n1) interpret the chart, and\n2) give your comments.\nYou should write about 150 words on the ANSWER SHEET. (15 points)",
+      "material": "90\n51\n12\n64\n15\n83\n30\n80\n70\n60\n50\n40\n30\n20\n10\n0\n2018 年 2019 年 2020 年\n总体\n农村\n2018—2020 年我国快递业务量变动情况（单位：十亿件）"
+    }
+  },
+  "stats": {
+    "cloze": 20,
+    "reading": 20,
+    "newQuestionType": 5
+  }
+}
