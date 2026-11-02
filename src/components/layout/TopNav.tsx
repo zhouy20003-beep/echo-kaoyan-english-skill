@@ -20,7 +20,7 @@ export default function TopNav() {
             <Sparkles className="h-4.5 w-4.5" size={18} />
           </span>
           <span className="leading-tight">
-            <span className="block text-[15px] font-extrabold tracking-tight text-ink">Echo 英语二</span>
+            <span className="block text-[15px] font-extrabold tracking-tight text-ink">桃子英语二</span>
             <span className="hidden text-[11px] font-medium text-ink-muted sm:block">AI 学习平台</span>
           </span>
         </Link>

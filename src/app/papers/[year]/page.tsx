@@ -171,7 +171,7 @@ export default async function PaperDetailPage({ params }: { params: Promise<{ ye
       </div>
 
       <p className="pb-2 text-[12px] text-ink-muted">
-        说明：本页客观题答案来自原项目 answers.json；翻译参考译文为 Echo 生成的非官方译文。
+        说明：本页客观题答案来自原项目 answers.json；翻译参考译文为桃子的 AI 老师生成的非官方译文。
       </p>
     </div>
   );

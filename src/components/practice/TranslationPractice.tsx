@@ -125,7 +125,7 @@ export default function TranslationPractice({
       {showReference && reference && (
         <div className="card border-sky-100 bg-sky-50/50 p-5">
           <p className="flex items-center gap-1.5 text-[13px] font-bold text-sky-800">
-            <ChevronDown size={14} /> Echo 参考译文（非官方）
+            <ChevronDown size={14} /> 桃子 AI 参考译文（非官方）
           </p>
           <p className="mt-2 text-[14px] leading-7 text-slate-700">{reference}</p>
         </div>

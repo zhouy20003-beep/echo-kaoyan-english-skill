@@ -17,7 +17,7 @@ const SUGGESTIONS = [
 ];
 
 const GREETING =
-  "你好，我是 Echo 英语二 AI 老师。可以问我阅读定位、完形逻辑、翻译采分点、大小作文结构，也可以把具体句子发来一起分析。我只讲考研英语（二）。";
+  "你好，我是桃子的英语二 AI 老师。可以问我阅读定位、完形逻辑、翻译采分点、大小作文结构，也可以把具体句子发来一起分析。我只讲考研英语（二）。";
 
 export default function AskPage() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);

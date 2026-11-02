@@ -43,7 +43,7 @@ export default function HomePage() {
         <div className="pointer-events-none absolute -bottom-32 left-1/3 h-64 w-64 rounded-full bg-sky-200/30 blur-3xl" />
         <div className="relative max-w-3xl">
           <span className="chip">
-            <Sparkles size={13} /> 只做考研英语（二）· 2010–2026
+            <Sparkles size={13} /> 只做考研英语（二）· 2010–2026 · 桃子专属
           </span>
           <h1 className="mt-4 text-[28px] font-extrabold leading-[1.25] tracking-tight text-ink sm:text-4xl">
             用真题把英语二练透，
@@ -166,7 +166,7 @@ export default function HomePage() {
       </section>
 
       <p className="pb-2 text-center text-[12px] leading-6 text-ink-muted">
-        真题原文与客观题答案来自原项目英语二语料；翻译参考译文由 Echo 生成，非官方答案。AI 批改结果仅供学习参考。
+        真题原文与客观题答案来自原项目英语二语料；翻译参考译文由桃子的 AI 老师生成，非官方答案。AI 批改结果仅供学习参考。
       </p>
     </div>
   );

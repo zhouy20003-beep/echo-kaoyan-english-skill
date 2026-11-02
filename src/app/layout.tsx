@@ -5,12 +5,12 @@ import BottomNav from "@/components/layout/BottomNav";
 
 export const metadata: Metadata = {
   title: {
-    default: "Echo 考研英语（二）AI 学习平台",
-    template: "%s · Echo 考研英语（二）",
+    default: "桃子的考研英语（二）AI 学习平台",
+    template: "%s · 桃子的考研英语（二）",
   },
   description:
     "考研英语（二）AI 学习平台：2010–2026 历年真题、阅读理解、完形填空、翻译批改、作文批改、AI 模拟考试、错题本与学习统计。免登录，打开即用。",
-  applicationName: "Echo 考研英语（二）",
+  applicationName: "桃子的考研英语（二）",
   keywords: ["考研英语二", "英语二真题", "AI 作文批改", "AI 翻译批改", "考研英语"],
 };
 
