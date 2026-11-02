@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { BookOpen, Eraser, PenLine, Sparkles } from "lucide-react";
 import { postJson } from "@/lib/client";
+import { addAttempt } from "@/lib/local-store";
 import type { ModelEssayResult, WritingResult } from "@/lib/ai-schemas";
 import { AiErrorNotice, SuccessHint, WritingAiView } from "@/components/ai/AiViews";
 import FavoriteButton from "@/components/practice/FavoriteButton";
@@ -47,19 +48,15 @@ export default function WritingPractice({
         essay,
       });
       setResult(data.result);
-      try {
-        await postJson("/api/records", {
-          kind: "writing",
-          paperYear: year,
-          itemKey: `writing-part-${part}`,
-          score: data.result.score,
-          maxScore,
-          payload: { part, essay: essay.slice(0, 1500) },
-        });
-        setSaveMsg(`已保存本次成绩：${data.result.score} / ${maxScore} 分`);
-      } catch {
-        setSaveMsg("批改完成，但成绩保存失败");
-      }
+      addAttempt({
+        kind: "writing",
+        paperYear: year,
+        itemKey: `writing-part-${part}`,
+        score: data.result.score,
+        maxScore,
+        payload: { part, essay: essay.slice(0, 1500) },
+      });
+      setSaveMsg(`已保存本次成绩：${data.result.score} / ${maxScore} 分（记录保存在本机浏览器）`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "批改失败，请重试");
     } finally {

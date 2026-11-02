@@ -4,10 +4,10 @@ import { clozeMessages } from "@/lib/prompts";
 import { aiJson } from "@/lib/deepseek";
 import { clozeResultSchema } from "@/lib/ai-schemas";
 import { clozeAiSchema } from "@/lib/validation";
-import { error, json, withUser } from "@/lib/api";
+import { error, handleError, json } from "@/lib/api";
 
 export async function POST(req: NextRequest) {
-  return withUser(async () => {
+  try {
     const input = clozeAiSchema.parse(await req.json());
     const paper = getPaper(input.year);
     if (!paper) return error("年份不存在", 404);
@@ -25,5 +25,7 @@ export async function POST(req: NextRequest) {
         officialAnswer: question.answer,
       },
     });
-  });
+  } catch (err) {
+    return handleError(err);
+  }
 }

@@ -5,7 +5,6 @@ import type { Attempt } from "@/lib/types";
 function makeAttempt(overrides: Partial<Attempt>): Attempt {
   return {
     id: crypto.randomUUID(),
-    userId: "u1",
     kind: "reading",
     paperYear: 2024,
     itemKey: "reading-text-1",

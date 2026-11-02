@@ -4,10 +4,10 @@ import { translationMessages } from "@/lib/prompts";
 import { aiJson } from "@/lib/deepseek";
 import { translationResultSchema } from "@/lib/ai-schemas";
 import { translationAiSchema } from "@/lib/validation";
-import { error, json, withUser } from "@/lib/api";
+import { error, handleError, json } from "@/lib/api";
 
 export async function POST(req: NextRequest) {
-  return withUser(async () => {
+  try {
     const input = translationAiSchema.parse(await req.json());
     const paper = getPaper(input.year);
     if (!paper) return error("年份不存在", 404);
@@ -18,5 +18,7 @@ export async function POST(req: NextRequest) {
     );
     const score = Math.max(0, Math.min(15, Math.round(result.score * 2) / 2));
     return json({ result: { ...result, score, maxScore: 15 } });
-  });
+  } catch (err) {
+    return handleError(err);
+  }
 }

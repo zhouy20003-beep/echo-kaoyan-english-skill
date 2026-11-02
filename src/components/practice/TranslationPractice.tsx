@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, Eraser, Languages, Sparkles } from "lucide-react";
 import { postJson } from "@/lib/client";
+import { addAttempt } from "@/lib/local-store";
 import type { TranslationResult } from "@/lib/ai-schemas";
 import { AiErrorNotice, SuccessHint, TranslationAiView } from "@/components/ai/AiViews";
 import FavoriteButton from "@/components/practice/FavoriteButton";
@@ -41,19 +42,15 @@ export default function TranslationPractice({
         userTranslation: text,
       });
       setResult(data.result);
-      try {
-        await postJson("/api/records", {
-          kind: "translation",
-          paperYear: year,
-          itemKey: "translation",
-          score: data.result.score,
-          maxScore: 15,
-          payload: { translation: text.slice(0, 1200) },
-        });
-        setSaveMsg(`已保存本次成绩：${data.result.score} / 15 分`);
-      } catch {
-        setSaveMsg("批改完成，但成绩保存失败");
-      }
+      addAttempt({
+        kind: "translation",
+        paperYear: year,
+        itemKey: "translation",
+        score: data.result.score,
+        maxScore: 15,
+        payload: { translation: text.slice(0, 1200) },
+      });
+      setSaveMsg(`已保存本次成绩：${data.result.score} / 15 分（记录保存在本机浏览器）`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "批改失败，请重试");
     } finally {

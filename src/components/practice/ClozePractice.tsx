@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { Bot, RotateCcw, Sparkles } from "lucide-react";
 import { postJson } from "@/lib/client";
+import { addAttempt, addWrongItems } from "@/lib/local-store";
 import type { ClozeQuestion } from "@/lib/types";
 import type { ClozeResult } from "@/lib/ai-schemas";
 import { AiErrorNotice, ClozeAiView, SuccessHint } from "@/components/ai/AiViews";
@@ -17,7 +18,6 @@ interface Props {
 export default function ClozePractice({ year, passage, questions }: Props) {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
-  const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState("");
   const [ai, setAi] = useState<Record<number, { loading: boolean; data?: ClozeResult; error?: string }>>({});
 
@@ -27,37 +27,32 @@ export default function ClozePractice({ year, passage, questions }: Props) {
   );
   const answeredCount = Object.keys(answers).length;
 
-  async function submit() {
-    if (saving) return;
+  function submit() {
+    if (submitted) return;
     setSubmitted(true);
-    setSaving(true);
     setSaveMsg("");
     const wrong = questions.filter((q) => answers[q.no] !== q.answer);
-    try {
-      await postJson("/api/records", {
-        kind: "cloze",
-        paperYear: year,
-        itemKey: "cloze",
-        correct: questions.length - wrong.length,
-        total: questions.length,
-        payload: { answers },
-      });
-      if (wrong.length > 0) {
-        await postJson("/api/wrong", {
-          items: wrong.map((q) => ({
-            kind: "cloze",
-            paperYear: year,
-            itemKey: "cloze",
-            questionNo: q.no,
-            payload: { options: q.options, correct: q.answer, userAnswer: answers[q.no] || null },
-          })),
-        });
-      }
-      setSaveMsg("成绩已保存，错题已自动加入错题本");
-    } catch (err) {
-      setSaveMsg(err instanceof Error ? err.message : "保存失败");
-    } finally {
-      setSaving(false);
+    addAttempt({
+      kind: "cloze",
+      paperYear: year,
+      itemKey: "cloze",
+      correct: questions.length - wrong.length,
+      total: questions.length,
+      payload: { answers },
+    });
+    if (wrong.length > 0) {
+      addWrongItems(
+        wrong.map((q) => ({
+          kind: "cloze" as const,
+          paperYear: year,
+          itemKey: "cloze",
+          questionNo: q.no,
+          payload: { options: q.options, correct: q.answer, userAnswer: answers[q.no] || null },
+        })),
+      );
+      setSaveMsg("成绩已保存到本机浏览器，错题已自动加入错题本");
+    } else {
+      setSaveMsg("全部答对！成绩已保存到本机浏览器");
     }
   }
 
@@ -215,8 +210,8 @@ export default function ClozePractice({ year, passage, questions }: Props) {
           <p className="text-[13px] text-ink-muted">
             已作答 {answeredCount} / {questions.length} 空{submitted ? ` · 答对 ${correctCount} 空` : ""}
           </p>
-          <button type="button" onClick={submit} disabled={submitted || answeredCount === 0 || saving} className="btn-primary">
-            <Bot size={16} /> {saving ? "保存中…" : "提交答案"}
+          <button type="button" onClick={submit} disabled={submitted || answeredCount === 0} className="btn-primary">
+            <Bot size={16} /> 提交答案
           </button>
         </div>
         {saveMsg && <SuccessHint text={saveMsg} />}

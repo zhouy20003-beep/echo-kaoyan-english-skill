@@ -4,10 +4,10 @@ import { writingMessages } from "@/lib/prompts";
 import { aiJson } from "@/lib/deepseek";
 import { modelEssayResultSchema, writingResultSchema } from "@/lib/ai-schemas";
 import { writingAiSchema } from "@/lib/validation";
-import { error, json, withUser } from "@/lib/api";
+import { error, handleError, json } from "@/lib/api";
 
 export async function POST(req: NextRequest) {
-  return withUser(async () => {
+  try {
     const input = writingAiSchema.parse(await req.json());
     const paper = getPaper(input.year);
     if (!paper) return error("年份不存在", 404);
@@ -33,5 +33,7 @@ export async function POST(req: NextRequest) {
     );
     const score = Math.max(0, Math.min(maxScore, Math.round(result.score * 2) / 2));
     return json({ mode: "grade", result: { ...result, score, maxScore } });
-  });
+  } catch (err) {
+    return handleError(err);
+  }
 }

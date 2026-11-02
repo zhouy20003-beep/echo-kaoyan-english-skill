@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { Sparkles, UserRound } from "lucide-react";
-import type { PublicUser } from "@/lib/types";
-import LogoutButton from "@/components/layout/LogoutButton";
+import { LineChart, Sparkles } from "lucide-react";
 
 const LINKS = [
   { href: "/papers", label: "真题库" },
@@ -13,7 +11,7 @@ const LINKS = [
   { href: "/ask", label: "AI 答疑" },
 ];
 
-export default function TopNav({ user }: { user: PublicUser | null }) {
+export default function TopNav() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/85 backdrop-blur-xl">
       <div className="container-page flex h-16 items-center justify-between gap-4">
@@ -40,24 +38,9 @@ export default function TopNav({ user }: { user: PublicUser | null }) {
         </nav>
 
         <div className="flex items-center gap-2">
-          {user ? (
-            <>
-              <Link href="/dashboard" className="hidden items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-medium text-ink-soft hover:text-brand-700 sm:flex">
-                <UserRound size={16} />
-                {user.name}
-              </Link>
-              <LogoutButton />
-            </>
-          ) : (
-            <>
-              <Link href="/login" className="btn btn-ghost btn-sm">
-                登录
-              </Link>
-              <Link href="/register" className="btn-primary btn-sm">
-                免费注册
-              </Link>
-            </>
-          )}
+          <Link href="/dashboard" className="btn btn-ghost btn-sm">
+            <LineChart size={15} /> 学习记录
+          </Link>
         </div>
       </div>
     </header>

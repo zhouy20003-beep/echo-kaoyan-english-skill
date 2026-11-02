@@ -78,7 +78,6 @@ export type AttemptKind = "reading" | "cloze" | "translation" | "writing" | "moc
 
 export interface Attempt {
   id: string;
-  userId: string;
   kind: AttemptKind;
   paperYear: number | null;
   itemKey: string;
@@ -92,7 +91,6 @@ export interface Attempt {
 
 export interface WrongItem {
   id: string;
-  userId: string;
   kind: AttemptKind;
   paperYear: number;
   itemKey: string;
@@ -104,18 +102,10 @@ export interface WrongItem {
 
 export interface FavoriteItem {
   id: string;
-  userId: string;
   kind: AttemptKind;
   paperYear: number;
   itemKey: string;
   questionNo: number | null;
   payload: Record<string, unknown>;
-  createdAt: string;
-}
-
-export interface PublicUser {
-  id: string;
-  email: string;
-  name: string;
   createdAt: string;
 }

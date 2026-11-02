@@ -11,11 +11,3 @@ export async function postJson<T = unknown>(url: string, body: unknown): Promise
   }
   return data as T;
 }
-
-export async function deleteJson(url: string): Promise<void> {
-  const res = await fetch(url, { method: "DELETE" });
-  if (!res.ok) {
-    const data = (await res.json().catch(() => ({}))) as Record<string, unknown>;
-    throw new Error(typeof data.error === "string" ? data.error : "操作失败");
-  }
-}

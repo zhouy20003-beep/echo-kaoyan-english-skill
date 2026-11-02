@@ -52,7 +52,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-2xl text-[15px] leading-7 text-ink-soft sm:text-base">
             17 年英语二真题、阅读理解、完形填空、翻译与大小作文批改，全部按英语二评分标准。
-            DeepSeek AI 在服务端运行，手机和电脑打开即用，无需下载 App。
+            DeepSeek AI 在服务端运行，打开即用——无需下载 App，也无需注册登录。
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/papers" className="btn-primary px-5">

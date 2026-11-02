@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { AlertCircle, Clock, Sparkles, Send } from "lucide-react";
 import { postJson } from "@/lib/client";
+import { addAttempt, addWrongItems } from "@/lib/local-store";
 import type { Paper } from "@/lib/types";
 import type { TranslationResult, WritingResult } from "@/lib/ai-schemas";
 import { AiErrorNotice, SuccessHint, TranslationAiView, WritingAiView } from "@/components/ai/AiViews";
@@ -20,7 +21,6 @@ export default function MockExam({ paper }: Props) {
   const [essayA, setEssayA] = useState("");
   const [essayB, setEssayB] = useState("");
   const [seconds, setSeconds] = useState(120 * 60);
-  const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState("");
   const [autoSubmitted, setAutoSubmitted] = useState(false);
 
@@ -69,10 +69,9 @@ export default function MockExam({ paper }: Props) {
     setAnswers((prev) => ({ ...prev, [key]: letter }));
   }
 
-  async function submit() {
-    if (phase === "review" || saving) return;
+  function submit() {
+    if (phase === "review") return;
     setPhase("review");
-    setSaving(true);
     setSaveMsg("");
     const wrong: {
       kind: "cloze" | "reading";
@@ -109,29 +108,23 @@ export default function MockExam({ paper }: Props) {
       }
     }
 
-    try {
-      await postJson("/api/records", {
-        kind: "mock",
-        paperYear: paper.year,
-        itemKey: "mock-objective",
-        correct: clozeCorrect + readingCorrect,
-        total: 40,
-        score: objectiveScore,
-        maxScore: 50,
-        payload: {
-          clozeCorrect,
-          readingCorrect,
-          answered: answeredObjective,
-          timeUsed: 120 * 60 - seconds,
-        },
-      });
-      if (wrong.length) await postJson("/api/wrong", { items: wrong.slice(0, 50) });
-      setSaveMsg("模拟考试客观题成绩已保存，错题已加入错题本");
-    } catch (err) {
-      setSaveMsg(err instanceof Error ? err.message : "保存失败");
-    } finally {
-      setSaving(false);
-    }
+    addAttempt({
+      kind: "mock",
+      paperYear: paper.year,
+      itemKey: "mock-objective",
+      correct: clozeCorrect + readingCorrect,
+      total: 40,
+      score: objectiveScore,
+      maxScore: 50,
+      payload: {
+        clozeCorrect,
+        readingCorrect,
+        answered: answeredObjective,
+        timeUsed: 120 * 60 - seconds,
+      },
+    });
+    if (wrong.length) addWrongItems(wrong.slice(0, 50));
+    setSaveMsg("客观题成绩已保存到本机浏览器，错题已加入错题本");
   }
 
   async function gradeTranslation() {
@@ -142,14 +135,14 @@ export default function MockExam({ paper }: Props) {
         userTranslation: translation,
       });
       setTranslationAi({ loading: false, data: data.result });
-      await postJson("/api/records", {
+      addAttempt({
         kind: "translation",
         paperYear: paper.year,
         itemKey: "mock-translation",
         score: data.result.score,
         maxScore: 15,
         payload: { translation: translation.slice(0, 1200), mock: true },
-      }).catch(() => undefined);
+      });
     } catch (err) {
       setTranslationAi({ loading: false, error: err instanceof Error ? err.message : "批改失败" });
     }
@@ -171,14 +164,14 @@ export default function MockExam({ paper }: Props) {
         essay,
       });
       setter({ loading: false, data: data.result });
-      await postJson("/api/records", {
+      addAttempt({
         kind: "writing",
         paperYear: paper.year,
         itemKey: `mock-writing-part-${part}`,
         score: data.result.score,
         maxScore: part === "A" ? 10 : 15,
         payload: { part, essay: essay.slice(0, 1500), mock: true },
-      }).catch(() => undefined);
+      });
     } catch (err) {
       setter({ loading: false, error: err instanceof Error ? err.message : "批改失败" });
     }
@@ -200,7 +193,7 @@ export default function MockExam({ paper }: Props) {
           {phase === "exam" && <span className="text-[11.5px] font-normal text-ink-muted">· 已答 {answeredObjective}/40 客观题</span>}
         </div>
         {phase === "exam" ? (
-          <button type="button" onClick={submit} disabled={saving} className="btn-primary btn-sm">
+          <button type="button" onClick={submit} className="btn-primary btn-sm">
             <Send size={14} /> 交卷判分
           </button>
         ) : (
@@ -420,8 +413,8 @@ export default function MockExam({ paper }: Props) {
         <div className="sticky bottom-20 z-10 lg:bottom-4">
           <div className="card flex items-center justify-between gap-3 bg-white/95 p-3.5 backdrop-blur">
             <p className="text-[12.5px] text-ink-muted">已答 {answeredObjective}/40 · 建议先在 120 分钟内完成</p>
-            <button type="button" onClick={submit} disabled={saving} className="btn-primary">
-              <Send size={15} /> {saving ? "判分中…" : "交卷判分"}
+            <button type="button" onClick={submit} className="btn-primary">
+              <Send size={15} /> 交卷判分
             </button>
           </div>
         </div>

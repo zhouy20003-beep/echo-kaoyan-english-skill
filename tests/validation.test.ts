@@ -1,33 +1,27 @@
 import { describe, expect, it } from "vitest";
-import { registerSchema, loginSchema, favoriteSchema, wrongSchema } from "@/lib/validation";
+import { readingAiSchema, translationAiSchema, writingAiSchema } from "@/lib/validation";
 import { itemLabel, practiceHref } from "@/lib/labels";
 
-describe("输入校验", () => {
-  it("注册时邮箱转小写并去除空格", () => {
-    const parsed = registerSchema.parse({
-      email: "  Echo@Example.COM ",
-      name: " 小 Echo ",
-      password: "12345678",
-    });
-    expect(parsed.email).toBe("echo@example.com");
-    expect(parsed.name).toBe("小 Echo");
+describe("AI 输入校验", () => {
+  it("阅读解析需要合法的年份、篇号与题号", () => {
+    expect(readingAiSchema.safeParse({ year: 2024, textNo: 1, questionNo: 21 }).success).toBe(true);
+    expect(readingAiSchema.safeParse({ year: 2009, textNo: 1, questionNo: 21 }).success).toBe(false);
+    expect(readingAiSchema.safeParse({ year: 2024, textNo: 9, questionNo: 21 }).success).toBe(false);
+    expect(readingAiSchema.safeParse({ year: 2024, textNo: 1, questionNo: 50 }).success).toBe(false);
   });
 
-  it("拒绝过短密码和无效邮箱", () => {
-    expect(registerSchema.safeParse({ email: "a@b.com", name: "x", password: "1234567" }).success).toBe(false);
-    expect(loginSchema.safeParse({ email: "not-an-email", password: "x" }).success).toBe(false);
+  it("翻译批改拒绝过短译文", () => {
+    expect(translationAiSchema.safeParse({ year: 2024, userTranslation: "太短" }).success).toBe(false);
+    expect(
+      translationAiSchema.safeParse({ year: 2024, userTranslation: "这是一段足够长的中文译文内容。" }).success,
+    ).toBe(true);
   });
 
-  it("错题与收藏必须带年份和题目编号", () => {
+  it("写作批改只支持 A/B 两部分", () => {
     expect(
-      wrongSchema.safeParse({
-        items: [{ kind: "reading", paperYear: 2024, itemKey: "reading-text-1", questionNo: 21, payload: {} }],
-      }).success,
+      writingAiSchema.safeParse({ year: 2024, part: "A", mode: "grade", essay: "x".repeat(40) }).success,
     ).toBe(true);
-    expect(
-      favoriteSchema.safeParse({ kind: "reading", paperYear: 2024, itemKey: "reading-text-1" }).success,
-    ).toBe(true);
-    expect(favoriteSchema.safeParse({ kind: "reading", itemKey: "reading-text-1" }).success).toBe(false);
+    expect(writingAiSchema.safeParse({ year: 2024, part: "C" }).success).toBe(false);
   });
 });
 

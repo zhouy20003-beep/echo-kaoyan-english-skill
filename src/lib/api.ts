@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { getCurrentUser } from "@/lib/auth";
 import { AiNotConfiguredError, AiError } from "@/lib/deepseek";
-import type { PublicUser } from "@/lib/types";
 
 export function json(data: unknown, status = 200): NextResponse {
   return NextResponse.json(data, { status });
@@ -10,18 +8,6 @@ export function json(data: unknown, status = 200): NextResponse {
 
 export function error(message: string, status = 400, code?: string): NextResponse {
   return NextResponse.json({ error: message, code }, { status });
-}
-
-export async function withUser(
-  handler: (user: PublicUser) => Promise<Response>,
-): Promise<Response> {
-  const user = await getCurrentUser();
-  if (!user) return error("请先登录", 401, "UNAUTHORIZED");
-  try {
-    return await handler(user);
-  } catch (err) {
-    return handleError(err);
-  }
 }
 
 export function handleError(err: unknown): NextResponse {

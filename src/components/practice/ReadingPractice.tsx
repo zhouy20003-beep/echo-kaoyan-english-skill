@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { Bot, Check, RotateCcw, Sparkles } from "lucide-react";
 import { postJson } from "@/lib/client";
+import { addAttempt, addWrongItems } from "@/lib/local-store";
 import type { ReadingQuestion } from "@/lib/types";
 import type { ReadingResult } from "@/lib/ai-schemas";
 import { AiErrorNotice, ReadingAiView, SuccessHint } from "@/components/ai/AiViews";
@@ -18,7 +19,6 @@ interface Props {
 export default function ReadingPractice({ year, textNo, paragraphs, questions }: Props) {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
-  const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState("");
   const [ai, setAi] = useState<Record<number, { loading: boolean; data?: ReadingResult; error?: string }>>({});
 
@@ -28,43 +28,38 @@ export default function ReadingPractice({ year, textNo, paragraphs, questions }:
   );
   const answeredCount = Object.keys(answers).length;
 
-  async function submit() {
-    if (saving) return;
+  function submit() {
+    if (submitted) return;
     setSubmitted(true);
-    setSaving(true);
     setSaveMsg("");
     const wrong = questions.filter((q) => answers[q.no] !== q.answer);
-    try {
-      await postJson("/api/records", {
-        kind: "reading",
-        paperYear: year,
-        itemKey: `reading-text-${textNo}`,
-        correct: questions.length - wrong.length,
-        total: questions.length,
-        payload: { answers, textNo },
-      });
-      if (wrong.length > 0) {
-        await postJson("/api/wrong", {
-          items: wrong.map((q) => ({
-            kind: "reading",
-            paperYear: year,
-            itemKey: `reading-text-${textNo}`,
-            questionNo: q.no,
-            payload: {
-              stem: q.stem,
-              options: q.options,
-              correct: q.answer,
-              userAnswer: answers[q.no] || null,
-              textNo,
-            },
-          })),
-        });
-      }
-      setSaveMsg("成绩已保存，错题已自动加入错题本");
-    } catch (err) {
-      setSaveMsg(err instanceof Error ? err.message : "保存失败");
-    } finally {
-      setSaving(false);
+    addAttempt({
+      kind: "reading",
+      paperYear: year,
+      itemKey: `reading-text-${textNo}`,
+      correct: questions.length - wrong.length,
+      total: questions.length,
+      payload: { answers, textNo },
+    });
+    if (wrong.length > 0) {
+      addWrongItems(
+        wrong.map((q) => ({
+          kind: "reading" as const,
+          paperYear: year,
+          itemKey: `reading-text-${textNo}`,
+          questionNo: q.no,
+          payload: {
+            stem: q.stem,
+            options: q.options,
+            correct: q.answer,
+            userAnswer: answers[q.no] || null,
+            textNo,
+          },
+        })),
+      );
+      setSaveMsg("成绩已保存到本机浏览器，错题已自动加入错题本");
+    } else {
+      setSaveMsg("全部答对！成绩已保存到本机浏览器");
     }
   }
 
@@ -213,8 +208,8 @@ export default function ReadingPractice({ year, textNo, paragraphs, questions }:
             已作答 {answeredCount} / {questions.length} 题{submitted ? ` · 答对 ${correctCount} 题` : ""}
           </p>
           <div className="flex items-center gap-2">
-            <button type="button" onClick={submit} disabled={submitted || answeredCount === 0 || saving} className="btn-primary">
-              <Bot size={16} /> {saving ? "保存中…" : "提交答案"}
+            <button type="button" onClick={submit} disabled={submitted || answeredCount === 0} className="btn-primary">
+              <Bot size={16} /> 提交答案
             </button>
           </div>
         </div>

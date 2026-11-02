@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
-import { postJson } from "@/lib/client";
+import { addFavorite, isFavorite } from "@/lib/local-store";
+import type { AttemptKind } from "@/lib/types";
 
 export default function FavoriteButton({
   kind,
@@ -12,35 +13,35 @@ export default function FavoriteButton({
   payload,
   label = "收藏",
 }: {
-  kind: "reading" | "cloze" | "translation" | "writing" | "mock";
+  kind: Exclude<AttemptKind, "ask">;
   year: number;
   itemKey: string;
   questionNo?: number | null;
   payload: Record<string, unknown>;
   label?: string;
 }) {
-  const [state, setState] = useState<"idle" | "saving" | "done">("idle");
+  const [done, setDone] = useState(false);
 
-  async function save() {
-    if (state !== "idle") return;
-    setState("saving");
-    try {
-      await postJson("/api/favorites", { kind, year, itemKey, questionNo, payload });
-      setState("done");
-    } catch {
-      setState("idle");
-    }
+  useEffect(() => {
+    setDone(isFavorite(kind, year, itemKey));
+  }, [kind, year, itemKey]);
+
+  function save() {
+    if (done) return;
+    addFavorite({ kind, paperYear: year, itemKey, questionNo, payload });
+    setDone(true);
   }
 
   return (
     <button
       type="button"
       onClick={save}
-      className={`btn btn-sm ${state === "done" ? "bg-rose-50 text-rose-600" : "btn-outline"}`}
+      disabled={done}
+      className={`btn btn-sm ${done ? "bg-rose-50 text-rose-600" : "btn-outline"}`}
       aria-label={label}
     >
-      <Heart size={14} className={state === "done" ? "fill-rose-500 text-rose-500" : ""} />
-      {state === "done" ? "已收藏" : state === "saving" ? "保存中" : label}
+      <Heart size={14} className={done ? "fill-rose-500 text-rose-500" : ""} />
+      {done ? "已收藏" : label}
     </button>
   );
 }
